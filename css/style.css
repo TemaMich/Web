@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+	font-family: 'Oswald'; 
+	src: url(../font/OswaldExtraLight.ttf); 
+}
+
+@font-face {
+	font-family: 'Sansation'; 
+	src: url(../font/Sansation.ttf); 
+}
+
+
+.begin {
+position: relative;
+width: 100%;
+min-height: 100vh;
+background: url("../img/html-code-ss-1920.jpg") 0 0/cover no-repeat fixed;
+color: #fff;
+}
+
+.begin .hello{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+
+.begin .hello p {
+    font-family: Sansation;
+    margin: 0px;
+    font-size: 36px;
+    text-align: center;
+}
+
+h1{
+    margin: 5px;
+    font-family: Oswald;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h2{
+    text-align: center;
+    font-family: Oswald;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.skills h2{
+    color: #000;
+}
+
+.skills hr{
+    margin-bottom: 25px;
+    background: #000;
+    border: 1px solid #000;
+}
+
+.about{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 100%;
+    float: left;
+    background: #000000;
+}
+
+hr{
+    margin: 0 auto;
+    height: 0px;
+    padding: 0;
+    border: 1px solid #fff;
+    width: 197px;
+    background: #FFF;
+}
+
+
+.img{
+    float: left;
+    width: 270px;
+    left: 270;
+    margin-top: 66px;
+    margin-left: 18%;
+}
+
+.img img{
+    border-radius: 62px;
+    width: 100%;
+}
+
+.text{
+    padding: 15px 24px 15px 24px;
+    width: 600px;
+    float: left;
+    margin-left: 131px;
+    margin-top: 100px;
+    background: #F0F0F0;
+    border-radius: 66px;
+}
+
+.about .text p{
+    font-family: Sansation;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.s_img{
+    margin-top: 25px;
+    margin-left: 11%;
+    float: left;
+    width: 200px;
+    height: 150px;
+}
+
+
+.s_img img{
+    width: 100%;
+}
+
+.skills{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 100%;
+    
+}
+
+.skill-list{
+   
+    float: left;
+    margin-top: 25px;
+    background: #000;
+    border-radius: 98px;
+    width: 1050px;
+    /*width: 750px;*/
+    /*margin-left: 12%;*/
+}
+
+.sk{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.contact{
+    padding-top: 25px;
+    float: left;
+    width: 100%;
+    background: #000;
+}
+
+.contact-list{
+    margin-top: 9px;
+    width: 100%;
+    
+        
+    
+}
+
+.contact p{
+    font-family: Sansation;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 78px;
+    margin-bottom: 8px;
+}
+
+.contact-list p{
+    margin-top: 0px;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+a{
+    color: #FFF;
+}
+
+@media(max-width: 800px){
+    .text{
+        width: 60%;
+    }
+}
+
+@media(max-width: 1280px){
+    .img{
+        margin-left: 9%;
+    }
+}
+
+
+@media(max-width: 1152px){
+    .img{
+        width: 33%;
+        margin-left: 33%;
+    }
+    .text{
+        width: 52%;
+        margin-left: 22%;
+    }
+}
+
+@media(max-width: 800px){
+    .img{
+        width: 48%;
+        margin-left: 26%;
+    }
+    .text{
+        margin-left: 21%;
+    }
+}
+
+@media(max-width: 480px){
+    .img{
+        width: 61%;
+        margin-left: 20%;
+    }
+    .text{
+        width: 70%;
+        margin-left: 9%;
+    }
+}
+
+@media(max-width: 895px){
+    .skill-list{
+        width: 500px;
+    }
+    .skill-list .s_img{
+        margin-left: 7%;
+    }
+}
+
+
+
+@media(max-width: 464px){
+    .skill-list .s_img{
+        width: 177px;
+        margin-left: 8%;
+        margin-top: 4%;
+    }
+}
+
+@media(max-width: 420px){
+    .skill-list .s_img{
+        width: 160px;
+        margin-left: -1%;
+    }
+    .skill-list{
+        width: 314px;
+    }
+}
+
+
+
+
